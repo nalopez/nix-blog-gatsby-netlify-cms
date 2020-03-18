@@ -1,0 +1,189 @@
+ul.resume__list {
+    margin: 20px 20px 50px;
+    list-style: none;
+    position: relative;
+    padding: 0 0 0 50px;
+    width: 100%;
+}
+
+ul.resume__list li {
+    /* position: relative;
+    margin-left: 10px;
+    padding: 20px;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out; */
+
+    position: relative;
+    margin-left: 10px;
+    padding: 20px;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    margin: 1rem 0;
+}
+
+.resume__experience {
+    float: left;
+}
+
+.resume__education {
+    float: right;
+}
+
+.resume__line-left {
+    /* width: 2px;
+    height: 100%;
+    left: -10px;
+    top: 0;
+    position: absolute;
+    background-color: #e83e8c; */
+
+    width: 2px;
+    height: 80%;
+    left: -10px;
+    top: 0;
+    position: absolute;
+    background-color: #e83e8c;
+    bottom: 0;
+    margin: auto;
+}
+
+.resume__line-left:before, .resume__line-left:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #e83e8c;
+    position: absolute;
+    left: -4px;
+    top: -10px;
+}
+
+.resume__line-left:after {
+    top: 100%;
+}
+
+.resume__job-content {
+    margin-left: 10px;
+}
+
+.resume__job-info {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.resume__job-year {
+    height: 100%;
+    left: -10px;
+    top: 0;
+    position: absolute;
+}
+
+.resume__job-year span {
+    /* font-size: 16px;
+    position: absolute;
+    -webkit-transform: translateX(-120%);
+    -ms-transform: translateX(-120%);
+    transform: translateX(-120%);
+    color: #fff; */
+
+    font-size: 16px;
+    position: absolute;
+    /* -webkit-transform: translateX(-120%); */
+    /* transform: translateX(-120%); */
+    color: #fff;
+    text-align: right;
+    left: -55px;
+    /* background-color: red;*/
+}
+
+.resume__job-year-to {
+    top: 0;
+}
+
+.resume__job-year-from {
+    bottom: 0;
+}
+
+
+/* SKILL SET */
+
+.skill-set {
+    width: 50%;
+}
+
+.skill-set__skill-item {
+    padding: 0 20px;
+}
+
+.skill-set__progress-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+.skill-set__progress {
+    height: 10px;
+    background-color: #404144;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 20px;
+    overflow: visible;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    font-size: 0.75rem;
+}
+
+.skill-set__progress-bar {
+    box-shadow: none;
+    position: relative;
+    background-color: #e83e8c;
+    width: 0;
+    -webkit-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+    transition: all 2s ease-out;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.skill-set__progress-bar:after {
+    border-bottom-color: #e83e8c;
+    content: "";
+    display: block;
+    border: 15px solid transparent;
+    border-bottom: 21px solid transparent;
+    position: absolute;
+    top: -26px;
+    right: -12px;
+}
+
+.skill-set__progress-value {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    top: -30px;
+    right: 0;
+}

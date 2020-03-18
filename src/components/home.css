@@ -1,0 +1,23 @@
+.banner-content {
+    top: 190px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.banner-content img {
+    height: 200px;
+}
+
+.banner-content p {
+    font-size: 28px;
+}
+
+.cd-words-wrapper {
+    font-weight: bold;
+}
+
+span.pink {
+    color: #e83e8c;
+}
