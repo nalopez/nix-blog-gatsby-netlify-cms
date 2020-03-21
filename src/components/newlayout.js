@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 // Components
 import Sidebar from "./sidebar"
+import MobileNav from "./mobileNav"
 
 // CSS
 import "../fonts/fontawesome-free-5.12.1-web/css/all.min.css"
@@ -32,7 +33,7 @@ if (background) {
   return (
     <div className="main-content">
       <Sidebar siteTitle="NICOLE LOPEZ"></Sidebar>
-      
+      <MobileNav siteTitle="NICOLE LOPEZ"></MobileNav>
       <div className="content" 
         style={backgroundData}>
         <main>{children}</main>

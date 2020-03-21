@@ -11,6 +11,8 @@
     position: fixed;
 }
 
+
+
 .lnr {
     font-family: 'Linearicons-Free';
 }
@@ -67,4 +69,10 @@ a.sidebar__main-link, a.sidebar__main-link:visited {
     padding-left: 70px;
     position: relative;
     
+}
+
+@media (max-width: 767px) {
+    .sidebar-container {
+        display: none;
+    }
 }

@@ -78,3 +78,10 @@ h2, h3, h4 {
 .mb-70 {
     margin-bottom: 70px;
 }
+
+@media (max-width: 767px) {
+    .content {
+        padding: 20px;
+        padding-top: 50px;
+    }
+}

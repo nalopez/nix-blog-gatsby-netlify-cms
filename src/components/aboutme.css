@@ -180,3 +180,19 @@
     line-height: normal;
     margin-top: 5px;
 }
+
+@media (max-width: 767px) {
+    .about-me__main-message,
+    .about-me__personal-info {
+        max-width: 100%;
+        flex: 100%;
+    }
+
+    .about-me__main-message {
+        margin-bottom: 50px;
+    }
+
+    .services__item {
+        width: 40%;
+    }
+}

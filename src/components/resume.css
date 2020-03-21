@@ -187,3 +187,10 @@ ul.resume__list li {
     top: -30px;
     right: 0;
 }
+
+@media (max-width: 767px) {
+    .skill-set {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
