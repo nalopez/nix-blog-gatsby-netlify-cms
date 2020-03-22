@@ -25,9 +25,10 @@ const POST_PAGES_QUERY = graphql`
 
 const Sidebar = ({ siteTitle}) => {
   const data = useStaticQuery(POST_PAGES_QUERY)
+
     return (
       <>
-      <div className="sidebar-container">
+      <div id="sidebar-container" className="sidebar-container">
         <div className="sidebar">
           <div>
             <img src={devpic}></img>

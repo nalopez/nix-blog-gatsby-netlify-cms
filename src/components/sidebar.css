@@ -74,5 +74,10 @@ a.sidebar__main-link, a.sidebar__main-link:visited {
 @media (max-width: 767px) {
     .sidebar-container {
         display: none;
+        z-index: 20;
+    }
+
+    .sidebar {
+        width: 170px;
     }
 }
