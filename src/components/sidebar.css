@@ -11,8 +11,6 @@
     position: fixed;
 }
 
-
-
 .lnr {
     font-family: 'Linearicons-Free';
 }
@@ -68,16 +66,26 @@ a.sidebar__main-link, a.sidebar__main-link:visited {
     line-height: 45px;
     padding-left: 70px;
     position: relative;
-    
+    font-size: 12px;
 }
 
 @media (max-width: 767px) {
     .sidebar-container {
         display: none;
         z-index: 20;
+        -webkit-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
     }
 
     .sidebar {
         width: 170px;
+        -webkit-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+    }
+
+    .sidebar__site-name {
+        top: -50px;
     }
 }

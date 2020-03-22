@@ -1,14 +1,17 @@
-.about-me {
-    /* height: 100vh; */
+.about-me h3 {
+    font-size: 22px;
+    font-weight: 700;
 }
 
 .about-me__main-message {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 65%;
     -ms-flex: 0 0 65%;
-    flex: 0 0 65%;
-    max-width: 65%;
-}
+    flex: 0 0 60%;
+    max-width: 60%;
+    text-align: justify;
+    margin-right: 5%;
+}   
 
 .about-me__personal-info {
     -webkit-box-flex: 0;
@@ -50,14 +53,20 @@
 .services__list {
     width: 100%;
     display: flex;
+    flex-flow: wrap;
 }
 
 .services__item {
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
     position: relative;
     width: 240px;
+}
+
+.services__item h4 {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .services__item p {
@@ -79,6 +88,7 @@
 
 .clients__list {
     text-align: center;
+    margin: auto;
 }
 
 .clients__logo {

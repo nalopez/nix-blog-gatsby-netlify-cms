@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 // Components
+import SEO from "./seo"
 import Sidebar from "./sidebar"
 import MobileNav from "./mobileNav"
 
@@ -31,6 +32,8 @@ if (background) {
 }
 
   return (
+    <>
+    <SEO/>
     <div className="main-content">
       <Sidebar siteTitle="NICOLE LOPEZ"></Sidebar>
       <MobileNav siteTitle="NICOLE LOPEZ"></MobileNav>
@@ -40,6 +43,7 @@ if (background) {
         
       </div>
     </div>
+    </>
   )
 }
 

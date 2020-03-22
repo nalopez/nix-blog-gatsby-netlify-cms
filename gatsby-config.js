@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Test Data`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    testdata: `nix`,
+    title: `Dev Blog - Nicole Anne Lopez`,
+    description: `This is the portfolio site of Nicole Lopez, a  full-stack web developer and freelancer`,
+    author: `@NicaNixNicaNix`,
+    url: "https://www.nicoleannelopez.com", // No trailing slash allowed!
+    twitterUsername: "@NicaNixNicaNix",
     mainPages: [
       {
         name: 'Home',

@@ -12,7 +12,6 @@ const POST_PAGES_QUERY = graphql`
       siteMetadata {
         title
         author
-        testdata
         mainPages {
           name
           link

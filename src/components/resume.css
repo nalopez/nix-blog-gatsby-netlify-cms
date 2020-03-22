@@ -22,12 +22,34 @@ ul.resume__list li {
     margin: 1rem 0;
 }
 
+.resume__experience h4,
+.resume__education h4 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 26px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.resume__experience h5,
+.resume__education h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #e83e8c;
+}
+
 .resume__experience {
-    float: left;
+    margin-right: 4%;
+    flex: 0 0 48%;
 }
 
 .resume__education {
-    float: right;
+    flex: 0 0 48%;
 }
 
 .resume__line-left {
@@ -71,6 +93,8 @@ ul.resume__list li {
 .resume__job-info {
     font-size: 16px;
     margin-bottom: 0px;
+    margin-bottom: 10px;
+    text-align: justify;
 }
 
 .resume__job-year {
@@ -192,5 +216,14 @@ ul.resume__list li {
     .skill-set {
         width: 100%;
         margin-bottom: 30px;
+    }
+
+    .resume__experience {
+        flex: 0 0 100%;
+        margin-right: 0;
+    }
+    
+    .resume__education {
+        flex: 0 0 100%;
     }
 }

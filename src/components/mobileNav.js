@@ -8,7 +8,7 @@ const MobileNav = ({ siteTitle}) => {
      let sidebar = document.getElementById('sidebar-container')
      let displayValue = 'none';
 
-     if (sidebar.style.display === "none") {
+     if (sidebar.style.display != "block") {
        displayValue = 'block';
      }
       

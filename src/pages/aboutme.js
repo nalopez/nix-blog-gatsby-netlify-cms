@@ -22,7 +22,7 @@ const AboutMe = () => (
     <NewLayout background="#2C2D2F">
         <PageHeading headingStr="About Me." classStr="lnr lnr-user"></PageHeading>
         <div className="about-me mb-70">
-            <div class="row mb-70">
+            <div className="row mb-70">
                 <div className="about-me__main-message">
                     <h3 className="mb-20">Full Stack Developer & Scrum Master</h3>
                     <p>I am have been a fullstack PHP developer for 5 years, specializing in the development of payment management and e-commerce sites.</p>
@@ -63,7 +63,7 @@ const AboutMe = () => (
                 </div>
             </div>
             
-            <div className="row about-me__services mb-30">
+            <div className="row about-me__services mb-50">
                 <div className="subheading">
                     <h3> Services </h3>
                 </div>
@@ -91,29 +91,29 @@ const AboutMe = () => (
                     </div>
                 </div>
             </div>
-            <div className="row about-me__clients mb-30">
+            <div className="row about-me__clients mb-50">
                 <div className="subheading">
                     <h3> Clients </h3>
-                    <div className="clients__list">
-                        <div className="clients__logo">
-                            <a href="https://www.bax-shop.nl">
-                                <img src={baxLogo} />
-                            </a>
-                        </div>
-                        <div className="clients__logo">
-                            <a href="https://www.codingchiefs.com/en">
-                                <img src={codingchiefsLogo} />
-                            </a>
-                        </div>
-                        <div className="clients__logo">
-                            <a href="https://www.facebook.com">
-                                <img src={insurancehubLogo} />
-                            </a>
-                        </div>
+                </div>
+                <div className="clients__list">
+                    <div className="clients__logo">
+                        <a href="https://www.bax-shop.nl">
+                            <img src={baxLogo} />
+                        </a>
+                    </div>
+                    <div className="clients__logo">
+                        <a href="https://www.codingchiefs.com/en">
+                            <img src={codingchiefsLogo} />
+                        </a>
+                    </div>
+                    <div className="clients__logo">
+                        <a href="https://www.facebook.com">
+                            <img src={insurancehubLogo} />
+                        </a>
                     </div>
                 </div>
             </div>
-            <div className="row about-me__testimonials mb-30">
+            <div className="row about-me__testimonials mb-50">
                 <div className="subheading">
                     <h3> Testimonials </h3>
                 </div>

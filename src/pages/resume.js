@@ -20,9 +20,13 @@ const Resume = () => (
                             <span className="resume__line-left"></span>
                             <div className="resume__job-content">
                                 <h4>Web Developer</h4>
-                                <h5>CodingChiefs by Nochii, Clark, Pampanga, Philippines</h5>
+                                <h5>CodingChiefs by Nochii</h5>
+                                <h5>Clark, Pampanga, Philippines</h5>
                                 <p className="resume__job-info">
-                                    Bax-shop.nl
+                                    Currently performing as a remote developer for <a href="www.bax-shop.nl">Bax Music</a>, a music equipments supplier based on the Netherlands.
+                                </p>
+                                <p className="resume__job-info">
+                                    Responsible for developing new features for their various e-commerce sites. On May 2019, our team was sent to Goes, Netherlands to work along side their internal development team.
                                 </p>
                             </div>
                             <span className="resume__job-year">
@@ -34,9 +38,19 @@ const Resume = () => (
                             <span className="resume__line-left"></span>
                             <div className="resume__job-content">
                                 <h4>Scrum Master</h4>
-                                <h5>Bayview Technologies, Makati City, Metro Manila Philippines</h5>
+                                <h5>Bayview Technologies, Inc.</h5>
+                                <h5>Makati City, Metro Manila Philippines</h5>
                                 <p className="resume__job-info">
-                                    Scrumming
+                                    Implemented scrum methodologies for a development team
+                                </p>
+                                <p className="resume__job-info">
+                                    Facilitated scrum meetings (e.g. daily stand up, backlog grooming, retrospective)
+                                </p>
+                                <p className="resume__job-info">
+                                    Timeboxed team's tasks to ensure progress and completion throughout the sprint
+                                </p>
+                                <p className="resume__job-info">
+                                    Documented the team's sprint agenda, reports and action items, for the next sprint's reference.
                                 </p>
                             </div>
                             <span className="resume__job-year">
@@ -48,9 +62,15 @@ const Resume = () => (
                             <span className="resume__line-left"></span>
                             <div className="resume__job-content">
                                 <h4>Software Engineer</h4>
-                                <h5>Bayview Technologies, Makati City, Metro Manila Philippines</h5>
+                                <h5>Bayview Technologies, Inc.</h5>
+                                <h5>Makati City, Metro Manila Philippines</h5>
                                 <p className="resume__job-info">
-                                    Engineer
+                                    Developed new functionalities and existing feature enhancements for a payment gateway project</p>
+                                <p className="resume__job-info">
+                                    Integrated different payment method APIs
+                                </p>
+                                <p className="resume__job-info">
+                                    Designed new system architecture and created database designs
                                 </p>
                             </div>
                             <span className="resume__job-year">
@@ -61,10 +81,14 @@ const Resume = () => (
                         <li>
                             <span className="resume__line-left"></span>
                             <div className="resume__job-content">
-                                <h4>Junior Developer</h4>
-                                <h5>Bayview Technologies, Makati City, Metro Manila Philippines</h5>
+                                <h4>Junior Web Developer</h4>
+                                <h5>Bayview Technologies, Inc.</h5>
+                                <h5>Makati City, Metro Manila Philippines</h5>
                                 <p className="resume__job-info">
-                                    JR
+                                    Trained under the company's internal academy for the technologies used in all of its projects.
+                                </p>
+                                <p className="resume__job-info">
+                                    Developed new functionalities and existing feature enhancements for a payment gateway project built in PHP
                                 </p>
                             </div>
                             <span className="resume__job-year">
@@ -87,7 +111,7 @@ const Resume = () => (
                                 <h4>BS Computer Science</h4>
                                 <h5>University of the Philippines Manila, Ermita, Manila, Philippines</h5>
                                 <p className="resume__job-info">
-                                    Bax-shop.nl
+                                    Major in Health Informatics
                                 </p>
                             </div>
                             <span className="resume__job-year">

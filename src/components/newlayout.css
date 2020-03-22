@@ -1,14 +1,16 @@
 body * {
-    font-family: Roboto serif;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
 }
 
 main {
     margin: 30px;
 }
 
-h2, h3, h4 {
+h1, h2, h3, h4, h5 {
     margin: 0;
     padding: 0;
+    font-family: "Playfair Display", serif;
 }
 
 #___gatsby {
@@ -34,7 +36,7 @@ h2, h3, h4 {
     flex: 0 0 100%;
     max-width: 100%;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: center;
 }
 

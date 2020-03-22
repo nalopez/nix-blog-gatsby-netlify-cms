@@ -1,9 +1,23 @@
 .banner-content {
-    top: 190px;
+    top: 180px;
     width: 100%;
     position: relative;
     text-align: center;
     color: #FFFFFF;
+}
+
+.banner-content h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 62px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.banner-content h1 span {
+    font-weight: 900;
+    font-size: 62px;
+    font-family: "Playfair Display", serif;
 }
 
 .banner-content img {
@@ -20,4 +34,13 @@
 
 span.pink {
     color: #e83e8c;
+}
+
+@media (max-width: 767px) {
+    .banner-content {
+        position: absolute;
+        top: 25%;
+        width: 80%;
+        margin: auto;
+    }
 }
