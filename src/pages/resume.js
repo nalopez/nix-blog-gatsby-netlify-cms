@@ -39,7 +39,7 @@ const Resume = () => (
                             <div className="resume__job-content">
                                 <h4>Scrum Master</h4>
                                 <h5>Bayview Technologies, Inc.</h5>
-                                <h5>Makati City, Metro Manila Philippines</h5>
+                                <h5>Bel-Air, Makati, Philippines</h5>
                                 <p className="resume__job-info">
                                     Implemented scrum methodologies for a development team
                                 </p>
@@ -63,7 +63,7 @@ const Resume = () => (
                             <div className="resume__job-content">
                                 <h4>Software Engineer</h4>
                                 <h5>Bayview Technologies, Inc.</h5>
-                                <h5>Makati City, Metro Manila Philippines</h5>
+                                <h5>Bel-Air, Makati, Philippines</h5>
                                 <p className="resume__job-info">
                                     Developed new functionalities and existing feature enhancements for a payment gateway project</p>
                                 <p className="resume__job-info">
@@ -83,7 +83,7 @@ const Resume = () => (
                             <div className="resume__job-content">
                                 <h4>Junior Web Developer</h4>
                                 <h5>Bayview Technologies, Inc.</h5>
-                                <h5>Makati City, Metro Manila Philippines</h5>
+                                <h5>Bel-Air, Makati, Philippines</h5>
                                 <p className="resume__job-info">
                                     Trained under the company's internal academy for the technologies used in all of its projects.
                                 </p>
@@ -109,7 +109,8 @@ const Resume = () => (
                             <span className="resume__line-left"></span>
                             <div className="resume__job-content">
                                 <h4>BS Computer Science</h4>
-                                <h5>University of the Philippines Manila, Ermita, Manila, Philippines</h5>
+                                <h5>University of the Philippines Manila</h5>
+                                <h5>Ermita, Manila, Philippines</h5>
                                 <p className="resume__job-info">
                                     Major in Health Informatics
                                 </p>

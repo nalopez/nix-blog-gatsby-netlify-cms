@@ -32,7 +32,7 @@ footer {
     background-color: #e83e8c;
     padding: 10px 0;
     text-align: center;
-    opacity: 80%;
+    opacity: .8;
     z-index: 1;
     position: relative;
     top: -53px;

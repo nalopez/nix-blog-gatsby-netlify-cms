@@ -86,7 +86,7 @@
     text-align: center;
 }
 
-.info__item-icon {
+.info__item-icon i {
     position: relative;
     display: inline-block;
     text-align: center;
