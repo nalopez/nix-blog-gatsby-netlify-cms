@@ -20,8 +20,10 @@ img {
 }
 
 footer {
+    width: 100%;
     position: absolute;
     bottom: 25px;
+    text-align: center;
 }
 
 .sidebar__site-name {
