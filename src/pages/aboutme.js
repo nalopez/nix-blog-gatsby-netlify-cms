@@ -25,7 +25,7 @@ const AboutMe = () => (
             <div className="row mb-70">
                 <div className="about-me__main-message">
                     <h3 className="mb-20">Full Stack Developer & Scrum Master</h3>
-                    <p>I am have been a fullstack PHP developer for 5 years, specializing in the development of payment management and e-commerce sites.</p>
+                    <p>I am a fullstack PHP developer for 5 years, specializing in the development of payment management and e-commerce sites.</p>
 
                     <p>I am a certified Scrum Master, with 2 years experience of facilitiating scrum activities.</p>
 

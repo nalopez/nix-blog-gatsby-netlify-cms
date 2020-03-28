@@ -26,8 +26,7 @@ const Resume = () => (
                                     Currently performing as a remote developer for <a href="www.bax-shop.nl">Bax Music</a>, a music equipments supplier based on the Netherlands.
                                 </p>
                                 <p className="resume__job-info">
-                                    Responsible for developing new features for their various e-commerce sites. On May 2019, our team was sent to Goes, Netherlands to work along side their internal development team.
-                                </p>
+                                    Responsible for developing new features and third-party integrations for their various e-commerce sites.</p>
                             </div>
                             <span className="resume__job-year">
                                 <span className="resume__job-year-to">Present</span>
