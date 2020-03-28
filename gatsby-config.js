@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Dev Blog - Nicole Anne Lopez`,
+    title: `Dev Profile`,
     description: `This is the portfolio site of Nicole Lopez, a  full-stack web developer and freelancer`,
     author: `@NicaNixNicaNix`,
     url: "https://www.nicoleannelopez.com", // No trailing slash allowed!
