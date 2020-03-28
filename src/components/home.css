@@ -6,6 +6,13 @@
     color: #FFFFFF;
 }
 
+.banner-content__text-wrapper {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
 .banner-content h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -38,9 +45,13 @@ span.pink {
 
 @media (max-width: 767px) {
     .banner-content {
-        position: absolute;
-        top: 25%;
-        width: 80%;
+        height: 50%;
         margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 80%;
     }
 }
