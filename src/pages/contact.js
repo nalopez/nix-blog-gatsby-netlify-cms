@@ -21,15 +21,15 @@ const Contact = () => (
                     <input type="hidden" name="bot-field" />
                     <div className="row mb-20">
                         <span className="contact__form-field contact__form-field-inline contact__form-field-first">
-                            <input className="contact__name contact__input" type="text" placeholder="Name"></input>
+                            <input className="contact__name contact__input" type="text" placeholder="Name" required></input>
                         </span>
                         <span className="contact__form-field contact__form-field-inline">
-                            <input className="contact__email contact__input" type="email" placeholder="Email "></input>
+                            <input className="contact__email contact__input" type="email" placeholder="Email" required></input>
                         </span>
                     </div>
                     <div className="row mb-20">
                         <span className="contact__form-field contact__form-field-block">
-                            <textarea rows="5" className="contact__message contact__input" placeholder="Your message.."></textarea>
+                            <textarea rows="5" className="contact__message contact__input" placeholder="Your message.." required></textarea>
                         </span>
                     </div>
                     <div className="row mb-20">
