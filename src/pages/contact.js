@@ -48,7 +48,7 @@ const Contact = () => (
             </div>
             <div className="info__item">
                 <span className="info__item-icon"><i className="fas fa-map-marker-alt"></i></span>
-                <h5>Clark Global City, Clark Freeport Zone, Pampanga</h5>
+                <h5>Norzagaray, Bulacan</h5>
             </div>
             <div className="info__item">
                 <span className="info__item-icon"><i className="fas fa-phone"></i></span>

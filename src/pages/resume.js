@@ -19,17 +19,54 @@ const Resume = () => (
                         <li>
                             <span className="resume__line-left"></span>
                             <div className="resume__job-content">
-                                <h4>Web Developer</h4>
-                                <h5>CodingChiefs by Nochii</h5>
-                                <h5>Clark, Pampanga, Philippines</h5>
+                                <h4>Senior Web Developer</h4>
+                                <h5>Lamudi Technical Services Corporation</h5>
+                                <h5>Bel-Air, Makati, Philippines</h5>
                                 <p className="resume__job-info">
-                                    Currently performing as a remote developer for <a href="www.bax-shop.nl">Bax Music</a>, a music equipments supplier based on the Netherlands.
+                                    Currently developing multi-tenant changes for <a className="resume__link" href="https://www.propertypro.com.ph/">PropertyPro</a>, a real-estate CRO system.
                                 </p>
                                 <p className="resume__job-info">
-                                    Responsible for developing new features and third-party integrations for their various e-commerce sites.</p>
+                                    
+                                </p>
                             </div>
                             <span className="resume__job-year">
                                 <span className="resume__job-year-to">Present</span>
+                                <span className="resume__job-year-from">2020</span>
+                            </span>
+                        </li>
+                        <li>
+                            <span className="resume__line-left"></span>
+                            <div className="resume__job-content">
+                                <h4>Software Development Consultant</h4>
+                                <h5>Boon Interior</h5>
+                                <h5>Makati, Philippines</h5>
+                                <p className="resume__job-info">
+                                    Developing the backend project tracking system, and various front-facing services, eg. My Account page and mail template creations
+                                </p>
+                                <p className="resume__job-info">
+                                    
+                                </p>
+                            </div>
+                            <span className="resume__job-year">
+                                <span className="resume__job-year-to">Present</span>
+                                <span className="resume__job-year-from">2020</span>
+                            </span>
+                        </li>
+                        <li>
+                            <span className="resume__line-left"></span>
+                            <div className="resume__job-content">
+                                <h4>Senior Web Developer</h4>
+                                <h5>CodingChiefs by Nochii</h5>
+                                <h5>Clark, Pampanga, Philippines</h5>
+                                <p className="resume__job-info">
+                                    Performed as a remote developer for <a className="resume__link" href="https://www.bax-shop.nl" target="_blank">Bax Music</a>, a music equipments supplier based on the Netherlands.
+                                </p>
+                                <p className="resume__job-info">
+                                    Responsible for developing new features and third-party integrations for their various e-commerce sites.
+                                </p>
+                            </div>
+                            <span className="resume__job-year">
+                                <span className="resume__job-year-to">2020</span>
                                 <span className="resume__job-year-from">2019</span>
                             </span>
                         </li>

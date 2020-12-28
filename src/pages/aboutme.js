@@ -13,6 +13,7 @@ import '../components/aboutme.css'
 import baxLogo from '../images/clients/bax-logo.svg'
 import codingchiefsLogo from '../images/clients/cc-logo.png'
 import insurancehubLogo from '../images/clients/tih-logo.png'
+import boonLogo from '../images/clients/boon-logo.png'
 import EvoraAngelo from '../images/testimonials/evora-angelo.jpg'
 import VillasZedrick from '../images/testimonials/villas-zedrick.jpeg'
 
@@ -47,11 +48,11 @@ const AboutMe = () => (
             </li>
             <li>
               <span className="about-me__personal-info-label">Age</span>
-              <span>25 Years</span>
+              <span>26 Years</span>
             </li>
             <li>
               <span className="about-me__personal-info-label">Residence</span>
-              <span>Clark, Pampanga</span>
+              <span>Norzagaray, Bulacan</span>
             </li>
             <li>
               <span className="about-me__personal-info-label">Name</span>
@@ -123,6 +124,11 @@ const AboutMe = () => (
           <div className="clients__logo">
             <a href="https://www.facebook.com">
               <img src={insurancehubLogo} />
+            </a>
+          </div>
+          <div className="clients__logo">
+            <a href="https://www.booninterior.com">
+              <img src={boonLogo} />
             </a>
           </div>
         </div>
